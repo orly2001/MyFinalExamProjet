@@ -1,0 +1,16 @@
+name: Afficher Message sur Push et Pull Request
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  display_message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher un message
+        run: echo "Hello, modifications détectées !"

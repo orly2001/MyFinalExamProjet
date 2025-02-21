@@ -1,4 +1,3 @@
-
 # Projet Git-GitHub Exam
 
 > Projet démonstratif pour l'examen Git/GitHub, illustrant l'initialisation d'un dépôt local, la création d'un repository distant, la gestion des branches et des pull requests, ainsi que l'automatisation des tests via GitHub Actions.
@@ -17,5 +16,4 @@ Pour cloner et installer ce projet, suivez ces étapes :
 
 1. Cloner le repository :
    ```bash
-   git clone  https://github.com/orly2001/MyFinalExamProjet/compare/feature/about?expand=1
-
+   git clone https://github.com/ton-username/projet-git-github-exam.git
